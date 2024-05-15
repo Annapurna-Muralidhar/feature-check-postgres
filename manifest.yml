@@ -1,0 +1,11 @@
+---
+applications:
+- name: myapp
+  routes:
+  - route: nnrg1236.cfapps.us10-001.hana.ondemand.com
+  path: myapp
+  memory: 128M
+  buildpacks:
+  - nodejs_buildpack
+  services:
+  - postgres
